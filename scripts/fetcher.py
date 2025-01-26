@@ -38,6 +38,8 @@ def get_fdroid(appid: str, ignore_recommended: bool = False, repo: str = "https:
     version_manifest: dict = index_entry["versions"][next(iter(index_entry["versions"]))]["manifest"]
     version: str = version_manifest["versionName"]
     versioncode: int = int(version_manifest["versionCode"])
+    if not "authorName" in index_entry["metadata"]:
+        index_entry["metadata"]["authorName"] = "Anonymous"
     return InfoBundle(
         name=index_entry["metadata"]["name"]["en-US"],
         id=appid,
