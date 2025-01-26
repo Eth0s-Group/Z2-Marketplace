@@ -1,0 +1,41 @@
+{
+    "name": "Z2 Market Place",
+    "apps": {
+        "com.aurora.store": {
+            "type": "f-droid",
+            "description": "Download and install Play Store apps on your Z2!!! (Make sure to set the installation method in settings to Shizuku!)",
+            "dependencies": [
+                "moe.shizuku.privileged.api"
+            ]
+        },
+        "moe.shizuku.privileged.api": {
+            "type": "f-droid",
+            "repo": "https://apt.izzysoft.de/fdroid/repo",
+            "description": "Allows managing apps via Aurora and F-Droid."
+        },
+        "org.fdroid.fdroid.privileged": {
+            "downloadUrl": "https://github.com/depau/fdroid_shizuku_privileged_extension/raw/master/fdroid/repo/F-DroidShizukuPrivilegedExtension-release.apk",
+            "name": "F-Droid Shizuku Privileged Extension",
+            "description": "Enables F-Droid to work via Shizuku.",
+            "dependencies": [
+                "moe.shizuku.privileged.api"
+            ],
+            "icon": "https://raw.githubusercontent.com/depau/fdroid_shizuku_privileged_extension/master/fdroid/repo/icons-640/ic_launcher-playstore.png",
+            "attribution": {
+                "name": "Davide Depau on GitHub",
+                "link": "https://github.com/depau/fdroid_shizuku_privileged_extension"
+            }
+        },
+        "org.mozilla.firefox": {
+            "type": "fenix",
+            "description": "A browser for your Z2."
+        },
+        "org.fdroid.fdroid": {
+            "type": "f-droid",
+            "description": "A collection of apps that don't need Play Store.",
+            "dependencies": [
+                "org.fdroid.fdroid.privileged"
+            ]
+        }
+    }
+}
