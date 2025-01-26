@@ -1,0 +1,69 @@
+{
+    "name": "Z2 Market Place",
+    "apps": {
+        "com.aurora.store": {
+            "type": "f-droid",
+            "description": "Download and install Play Store apps on your Z2!!! (Make sure to set the installation method in settings to Shizuku!)\n-----\nFrom F-Droid:\nAn unofficial FOSS client to Google Play with an elegant design and privacy",
+            "dependencies": [
+                "moe.shizuku.privileged.api"
+            ],
+            "name": "Aurora Store",
+            "downloadUrl": "https://f-droid.org/repo/com.aurora.store_65.apk",
+            "attribution": {
+                "name": "Rahul Kumar Patel on F-Droid",
+                "link": "https://f-droid.org/packages/com.aurora.store/"
+            },
+            "icon": "https://f-droid.org/repo/com.aurora.store/en-US/icon_tbAhwq51NNd0liZcTg0cQNNvazxrWlj7bPCe_1TkCV8=.png"
+        },
+        "moe.shizuku.privileged.api": {
+            "type": "f-droid",
+            "repo": "https://apt.izzysoft.de/fdroid/repo",
+            "description": "Allows managing apps via Aurora and F-Droid.\n-----\nFrom IzzyOnDroid F-Droid Repo:\nusing system APIs directly with adb/root privileges from normal apps",
+            "name": "Shizuku",
+            "downloadUrl": "https://apt.izzysoft.de/fdroid/repo/moe.shizuku.privileged.api_1049.apk",
+            "attribution": {
+                "name": "Rikka apps on IzzyOnDroid F-Droid Repo",
+                "link": "https://apt.izzysoft.de/packages//moe.shizuku.privileged.api/"
+            },
+            "icon": "https://apt.izzysoft.de/fdroid/repo/moe.shizuku.privileged.api/en-US/icon_asi_qNRGXH8k_8WcEIjBU3tvFJC9zgZDldp18zf37Z4=.png"
+        },
+        "org.fdroid.fdroid.privileged": {
+            "downloadUrl": "https://github.com/depau/fdroid_shizuku_privileged_extension/raw/master/fdroid/repo/F-DroidShizukuPrivilegedExtension-release.apk",
+            "name": "F-Droid Shizuku Privileged Extension",
+            "description": "Enables F-Droid to work via Shizuku.",
+            "dependencies": [
+                "moe.shizuku.privileged.api"
+            ],
+            "icon": "https://raw.githubusercontent.com/depau/fdroid_shizuku_privileged_extension/master/fdroid/repo/icons-640/ic_launcher-playstore.png",
+            "attribution": {
+                "name": "Davide Depau on GitHub",
+                "link": "https://github.com/depau/fdroid_shizuku_privileged_extension"
+            }
+        },
+        "org.mozilla.firefox": {
+            "type": "fenix",
+            "description": "A browser for your Z2.\n-----\nFrom Mozilla:\nOnly non-profit-backed browser that is secure, private & fast",
+            "name": "Firefox",
+            "downloadUrl": "https://ftp.mozilla.org/pub/fenix/releases/134.0.2/android/fenix-134.0.2-android-armeabi-v7a/fenix-134.0.2.multi.android-armeabi-v7a.apk",
+            "attribution": {
+                "name": "Mozilla",
+                "link": "https://www.mozilla.org/en-US/firefox/browsers/mobile/android/"
+            },
+            "icon": "https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo.eb1324e44442.svg"
+        },
+        "org.fdroid.fdroid": {
+            "type": "f-droid",
+            "description": "A collection of apps that don't need Play Store.\n-----\nFrom F-Droid:\nThe app store that respects freedom and privacy",
+            "dependencies": [
+                "org.fdroid.fdroid.privileged"
+            ],
+            "name": "F-Droid",
+            "downloadUrl": "https://f-droid.org/repo/org.fdroid.fdroid_1022000.apk",
+            "attribution": {
+                "name": "Anonymous on F-Droid",
+                "link": "https://f-droid.org/packages/org.fdroid.fdroid/"
+            },
+            "icon": "https://f-droid.org/repo/org.fdroid.fdroid/en-US/icon_0slNR8J9edqDZDoyWABFZrqQONU9EyiNVwM6B3Jui_Q=.png"
+        }
+    }
+}
