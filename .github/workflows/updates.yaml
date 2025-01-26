@@ -1,4 +1,4 @@
-name: Daily Updates
+name: Update market.json
 
 on:
   schedule:
@@ -8,7 +8,7 @@ on:
       - '.github/**'  # Trigger when updates are made to the .github folder
 
 jobs:
-  run-python-script:
+  update-market:
     runs-on: ubuntu-latest
 
     steps:
