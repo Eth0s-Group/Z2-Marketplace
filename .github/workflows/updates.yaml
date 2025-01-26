@@ -6,6 +6,8 @@ on:
   push:
     paths:
       - '.github/**'  # Trigger when updates are made to the .github folder
+      - 'scripts/**'
+      - 'skeleton.json'
 
 jobs:
   update-market:
@@ -25,13 +27,13 @@ jobs:
       # Step 3: Install dependencies (if any)
       - name: Install dependencies
         run: |
+          cd scripts
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       # Step 4: Run the Python script
       - name: Run Python script
         run: |
-          cd scripts
           python3 fetcher.py
 
       # Step 5: Commit and push changes
