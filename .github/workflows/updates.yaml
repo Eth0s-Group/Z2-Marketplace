@@ -35,7 +35,7 @@ jobs:
       - name: Run Python script
         run: |
           cd scripts
-          python3 fetcher.py
+          python3 filler.py
 
       # Step 5: Commit and push changes
       - name: Commit and push changes
