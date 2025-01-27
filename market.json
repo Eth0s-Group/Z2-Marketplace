@@ -38,7 +38,8 @@
             "attribution": {
                 "name": "Davide Depau on GitHub",
                 "link": "https://github.com/depau/fdroid_shizuku_privileged_extension"
-            }
+            },
+            "postinstall": "am start -n org.fdroid.fdroid.privileged/.RequestPermissionActivity"
         },
         "org.mozilla.firefox": {
             "type": "fenix",
@@ -93,9 +94,20 @@
             },
             "icon": "https://f-droid.org/repo/com.aefyr.sai.fdroid/en-US/icon_Zm0fVY_8Lcc-3J8cCQd192LgncLhh-k4BQKvljYg9KU=.png"
         },
+        "de.szalkowski.activitylauncher": {
+            "type": "f-droid",
+            "description": "Allows accessing parts of apps that may otherwise be inaccessible.\n-----\nFrom F-Droid:\nCreate shortcuts for apps and activities",
+            "name": "Activity Launcher",
+            "downloadUrl": "https://f-droid.org/repo/de.szalkowski.activitylauncher_52.apk",
+            "attribution": {
+                "name": "Adam Szalkowski on F-Droid",
+                "link": "https://f-droid.org/packages/de.szalkowski.activitylauncher/"
+            },
+            "icon": "https://f-droid.org/assets/ic_repo_app_default_KNN008Z2K7VNPZOFLMTry3JkfFYPxVGDopS1iwWe5wo=.png"
+        },
         "io.github.muntashirakon.setedit": {
             "type": "f-droid",
-            "description": "Allows modifying settings that the manufacturer doesn't want you to.\n-----\nFrom F-Droid:\nOpen source version of the 4A Settings Database Editor",
+            "description": "THIS APP CAN HARM YOUR DEVICE!!!  Allows modifying settings that the manufacturer doesn't want you to.\n-----\nFrom F-Droid:\nOpen source version of the 4A Settings Database Editor",
             "postinstall": "pm grant io.github.muntashirakon.setedit android.permission.WRITE_SECURE_SETTINGS",
             "name": "SetEdit - Settings Database Editor",
             "downloadUrl": "https://f-droid.org/repo/io.github.muntashirakon.setedit_9.apk",
