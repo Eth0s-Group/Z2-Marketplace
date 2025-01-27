@@ -58,7 +58,7 @@
                 "org.fdroid.fdroid.privileged"
             ],
             "name": "F-Droid",
-            "downloadUrl": "https://f-droid.org/repo/org.fdroid.fdroid_1022000.apk",
+            "downloadUrl": "https://f-droid.org/repo/org.fdroid.fdroid_1022050.apk",
             "attribution": {
                 "name": "Anonymous on F-Droid",
                 "link": "https://f-droid.org/packages/org.fdroid.fdroid/"
@@ -72,12 +72,38 @@
                 "moe.shizuku.privileged.api"
             ],
             "name": "Canta",
-            "downloadUrl": "https://f-droid.org/repo/org.samo_lego.canta_205.apk",
+            "downloadUrl": "https://f-droid.org/repo/org.samo_lego.canta_207.apk",
             "attribution": {
                 "name": "Anonymous on F-Droid",
                 "link": "https://f-droid.org/packages/org.samo_lego.canta/"
             },
             "icon": "https://f-droid.org/repo/org.samo_lego.canta/en-US/icon_Le6UT5Ar_Guj_DTgy5cT_Y9pKR9WdkPN3FCYwKtiq84=.png"
+        },
+        "com.aefyr.sai.fdroid": {
+            "type": "f-droid",
+            "description": "Allows installing APKs directly on the phone without a PC! (Make sure to use Shizuku install method)\n-----\nFrom F-Droid:\nSAI lets you install and export split APKs",
+            "dependencies": [
+                "moe.shizuku.privileged.api"
+            ],
+            "name": "SAI",
+            "downloadUrl": "https://f-droid.org/repo/com.aefyr.sai.fdroid_60.apk",
+            "attribution": {
+                "name": "Aefyr on F-Droid",
+                "link": "https://f-droid.org/packages/com.aefyr.sai.fdroid/"
+            },
+            "icon": "https://f-droid.org/repo/com.aefyr.sai.fdroid/en-US/icon_Zm0fVY_8Lcc-3J8cCQd192LgncLhh-k4BQKvljYg9KU=.png"
+        },
+        "io.github.muntashirakon.setedit": {
+            "type": "f-droid",
+            "description": "Allows modifying settings that the manufacturer doesn't want you to.\n-----\nFrom F-Droid:\nOpen source version of the 4A Settings Database Editor",
+            "postinstall": "pm grant io.github.muntashirakon.setedit android.permission.WRITE_SECURE_SETTINGS",
+            "name": "SetEdit - Settings Database Editor",
+            "downloadUrl": "https://f-droid.org/repo/io.github.muntashirakon.setedit_9.apk",
+            "attribution": {
+                "name": "Muntashir Al-Islam on F-Droid",
+                "link": "https://f-droid.org/packages/io.github.muntashirakon.setedit/"
+            },
+            "icon": "https://f-droid.org/repo/io.github.muntashirakon.setedit/en-US/icon_s1hVwPD-l7cU5h_pOy4eFOVmmrDpgzw3oobIeU9t1Gk=.png"
         }
     }
 }
