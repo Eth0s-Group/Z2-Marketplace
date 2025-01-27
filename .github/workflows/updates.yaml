@@ -3,6 +3,7 @@ name: Update market.json
 on:
   schedule:
     - cron: '0 0 * * *'  # Runs daily at midnight UTC
+  workflow_dispatch:
   push:
     paths:
       - '.github/**'  # Trigger when updates are made to the .github folder
