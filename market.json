@@ -64,6 +64,20 @@
                 "link": "https://f-droid.org/packages/org.fdroid.fdroid/"
             },
             "icon": "https://f-droid.org/repo/org.fdroid.fdroid/en-US/icon_0slNR8J9edqDZDoyWABFZrqQONU9EyiNVwM6B3Jui_Q=.png"
+        },
+        "org.samo_lego.canta": {
+            "type": "f-droid",
+            "description": "Makes uninstalling apps easier.\n-----\nFrom F-Droid:\nUninstall any app without root!",
+            "dependencies": [
+                "moe.shizuku.privileged.api"
+            ],
+            "name": "Canta",
+            "downloadUrl": "https://f-droid.org/repo/org.samo_lego.canta_205.apk",
+            "attribution": {
+                "name": "Anonymous on F-Droid",
+                "link": "https://f-droid.org/packages/org.samo_lego.canta/"
+            },
+            "icon": "https://f-droid.org/repo/org.samo_lego.canta/en-US/icon_Le6UT5Ar_Guj_DTgy5cT_Y9pKR9WdkPN3FCYwKtiq84=.png"
         }
     }
 }
