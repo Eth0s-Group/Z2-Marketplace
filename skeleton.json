@@ -24,7 +24,8 @@
             "attribution": {
                 "name": "Davide Depau on GitHub",
                 "link": "https://github.com/depau/fdroid_shizuku_privileged_extension"
-            }
+            },
+            "postinstall": "am start -n org.fdroid.fdroid.privileged/.RequestPermissionActivity"
         },
         "org.mozilla.firefox": {
             "type": "fenix",
@@ -52,7 +53,7 @@
             ]
         },
         "de.szalkowski.activitylauncher": {
-            "type": "f-droid".
+            "type": "f-droid",
             "description": "Allows accessing parts of apps that may otherwise be inaccessible."
         },
         "io.github.muntashirakon.setedit": {
