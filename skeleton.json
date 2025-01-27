@@ -36,6 +36,13 @@
             "dependencies": [
                 "org.fdroid.fdroid.privileged"
             ]
+        },
+        "org.samo_lego.canta": {
+            "type": "f-droid",
+            "description": "Makes uninstalling apps easier.",
+            "dependencies": [
+                "moe.shizuku.privileged.api"
+            ]
         }
     }
 }
