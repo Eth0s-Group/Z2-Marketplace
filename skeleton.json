@@ -51,9 +51,13 @@
                 "moe.shizuku.privileged.api"
             ]
         },
+        "de.szalkowski.activitylauncher": {
+            "type": "f-droid".
+            "description": "Allows accessing parts of apps that may otherwise be inaccessible."
+        },
         "io.github.muntashirakon.setedit": {
             "type": "f-droid",
-            "description": "Allows modifying settings that the manufacturer doesn't want you to.",
+            "description": "THIS APP CAN HARM YOUR DEVICE!!!  Allows modifying settings that the manufacturer doesn't want you to.",
             "postinstall": "pm grant io.github.muntashirakon.setedit android.permission.WRITE_SECURE_SETTINGS"
         }
     }
