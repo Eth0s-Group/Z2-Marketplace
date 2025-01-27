@@ -47,7 +47,7 @@ def get_fdroid(appid: str, ignore_recommended: bool = False, repo: str = "https:
         description=index_entry["metadata"]["description"]["en-US"],
         download_url=f"{repo}/{appid}_{versioncode}.apk",
         store_link=f"{cached_index[repo]["repo"]["webBaseUrl"]}/{appid}/",
-        icon_url=f"{repo}{index_entry["metadata"]["icon"]["en-US"]["name"]}",
+        icon_url=f"{repo}{index_entry["metadata"]["icon"]["en-US"]["name"]}" if "icon" in index_entry["metadata"] else "https://f-droid.org/assets/ic_repo_app_default_KNN008Z2K7VNPZOFLMTry3JkfFYPxVGDopS1iwWe5wo=.png",
         summary=index_entry["metadata"]["summary"]["en-US"],
         store_name=cached_index[repo]["repo"]["name"]["en-US"],
         author_name=index_entry["metadata"]["authorName"]
