@@ -43,6 +43,18 @@
             "dependencies": [
                 "moe.shizuku.privileged.api"
             ]
+        },
+        "com.aefyr.sai.fdroid": {
+            "type": "f-droid",
+            "description": "Allows installing APKs directly on the phone without a PC! (Make sure to use Shizuku install method)",
+            "dependencies": [
+                "moe.shizuku.privileged.api"
+            ]
+        },
+        "io.github.muntashirakon.setedit": {
+            "type": "f-droid",
+            "description": "Allows modifying settings that the manufacturer doesn't want you to.",
+            "postinstall": "pm grant io.github.muntashirakon.setedit android.permission.WRITE_SECURE_SETTINGS"
         }
     }
 }
