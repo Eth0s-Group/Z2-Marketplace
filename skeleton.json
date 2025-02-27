@@ -33,7 +33,7 @@
         },
         "org.fdroid.fdroid": {
             "type": "f-droid",
-            "description": "A collection of apps that don't need Play Store.  \n\nNote: unfortunately we've been having issues with this not working properly with the F-Droid Shizuku Privileged Extension (which is required for it to function at all on the Z2).",
+            "description": "A collection of apps that don't need Play Store.  \n\nNote: Unfortunately we've been having issues with this not working properly with the F-Droid Shizuku Privileged Extension (which is required for it to function at all on the Z2).",
             "dependencies": [
                 "org.fdroid.fdroid.privileged"
             ]
