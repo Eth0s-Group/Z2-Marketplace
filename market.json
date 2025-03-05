@@ -45,7 +45,7 @@
             "type": "fenix",
             "description": "A browser for your Z2.\n-----\nFrom Mozilla:\nOnly non-profit-backed browser that is secure, private & fast",
             "name": "Firefox",
-            "downloadUrl": "https://ftp.mozilla.org/pub/fenix/releases/135.0.1/android/fenix-135.0.1-android-armeabi-v7a/fenix-135.0.1.multi.android-armeabi-v7a.apk",
+            "downloadUrl": "https://ftp.mozilla.org/pub/fenix/releases/136.0/android/fenix-136.0-android-armeabi-v7a/fenix-136.0.multi.android-armeabi-v7a.apk",
             "attribution": {
                 "name": "Mozilla",
                 "link": "https://www.mozilla.org/en-US/firefox/browsers/mobile/android/"
@@ -68,7 +68,7 @@
         },
         "org.samo_lego.canta": {
             "type": "f-droid",
-            "description": "Makes uninstalling apps easier.\n-----\nFrom F-Droid:\nUninstall any app without root!",
+            "description": "Makes uninstalling apps easier.\n-----\nFrom F-Droid:\nUninstall any(*) app without root!",
             "dependencies": [
                 "moe.shizuku.privileged.api"
             ],
