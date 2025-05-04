@@ -98,7 +98,7 @@
             "type": "f-droid",
             "description": "Allows accessing parts of apps that may otherwise be inaccessible.\n-----\nFrom F-Droid:\nCreate shortcuts for apps and activities",
             "name": "Activity Launcher",
-            "downloadUrl": "https://f-droid.org/repo/de.szalkowski.activitylauncher_53.apk",
+            "downloadUrl": "https://f-droid.org/repo/de.szalkowski.activitylauncher_54.apk",
             "attribution": {
                 "name": "Adam Szalkowski on F-Droid",
                 "link": "https://f-droid.org/packages/de.szalkowski.activitylauncher/"
