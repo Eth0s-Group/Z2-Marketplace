@@ -20,7 +20,7 @@
             "repo": "https://apt.izzysoft.de/fdroid/repo",
             "description": "Allows managing apps via Aurora and F-Droid.\n-----\nFrom IzzyOnDroid F-Droid Repo:\nusing system APIs directly with adb/root privileges from normal apps",
             "name": "Shizuku",
-            "downloadUrl": "https://apt.izzysoft.de/fdroid/repo/moe.shizuku.privileged.api_1049.apk",
+            "downloadUrl": "https://apt.izzysoft.de/fdroid/repo/moe.shizuku.privileged.api_1086.apk",
             "attribution": {
                 "name": "Rikka apps on IzzyOnDroid F-Droid Repo",
                 "link": "https://apt.izzysoft.de/packages//moe.shizuku.privileged.api/"
