@@ -32,7 +32,7 @@
             "description": "A browser for your Z2."
         },
         "org.schabi.newpipe": {
-            "type": "f-droid".
+            "type": "f-droid",
             "repo": "https://archive.newpipe.net/fdroid/repo",
             "description": "A YouTube client for your Z2."
         },
