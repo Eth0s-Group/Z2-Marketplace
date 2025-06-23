@@ -31,6 +31,11 @@
             "type": "fenix",
             "description": "A browser for your Z2."
         },
+        "org.schabi.newpipe": {
+            "type": "f-droid".
+            "repo": "https://archive.newpipe.net/fdroid/repo",
+            "description": "A YouTube client for your Z2."
+        },
         "org.fdroid.fdroid": {
             "type": "f-droid",
             "description": "A collection of apps that don't need Play Store.  \n\nNote: Unfortunately we've been having issues with this not working properly with the F-Droid Shizuku Privileged Extension (which is required for it to function at all on the Z2).",
