@@ -52,6 +52,17 @@
             },
             "icon": "https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo.eb1324e44442.svg"
         },
+        "org.schabi.newpipe": {
+            "type": "f-droid",
+            "description": "A YouTube client for your Z2.\n-----\nFrom F-Droid:\nLightweight YouTube frontend",
+            "name": "NewPipe",
+            "downloadUrl": "https://f-droid.org/repo/org.schabi.newpipe_1004.apk",
+            "attribution": {
+                "name": "Team NewPipe on F-Droid",
+                "link": "https://f-droid.org/packages/org.schabi.newpipe/"
+            },
+            "icon": "https://f-droid.org/repo/org.schabi.newpipe/en-US/icon_OHy4y1W-fJCNhHHOBCM9V_cxZNJJgbcNkB-x7UDTY9Q=.png"
+        },
         "org.fdroid.fdroid": {
             "type": "f-droid",
             "description": "A collection of apps that don't need Play Store.  \n\nNote: Unfortunately we've been having issues with this not working properly with the F-Droid Shizuku Privileged Extension (which is required for it to function at all on the Z2).\n-----\nFrom F-Droid:\nThe app store that respects freedom and privacy",
