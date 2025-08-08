@@ -45,7 +45,7 @@
             "type": "fenix",
             "description": "A browser for your Z2.\n-----\nFrom Mozilla:\nOnly non-profit-backed browser that is secure, private & fast",
             "name": "Firefox",
-            "downloadUrl": "https://ftp.mozilla.org/pub/fenix/releases/141.0.2/android/fenix-141.0.2-android-armeabi-v7a/fenix-141.0.2.multi.android-armeabi-v7a.apk",
+            "downloadUrl": "https://ftp.mozilla.org/pub/fenix/releases/141.0.3/android/fenix-141.0.3-android-armeabi-v7a/fenix-141.0.3.multi.android-armeabi-v7a.apk",
             "attribution": {
                 "name": "Mozilla",
                 "link": "https://www.mozilla.org/en-US/firefox/browsers/mobile/android/"
@@ -56,7 +56,7 @@
             "type": "f-droid",
             "description": "A YouTube client for your Z2.\n-----\nFrom F-Droid:\nLightweight YouTube frontend",
             "name": "NewPipe",
-            "downloadUrl": "https://f-droid.org/repo/org.schabi.newpipe_1004.apk",
+            "downloadUrl": "https://f-droid.org/repo/org.schabi.newpipe_1005.apk",
             "attribution": {
                 "name": "Team NewPipe on F-Droid",
                 "link": "https://f-droid.org/packages/org.schabi.newpipe/"
