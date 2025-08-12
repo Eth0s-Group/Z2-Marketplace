@@ -60,34 +60,6 @@
             },
             "icon": "https://f-droid.org/repo/org.schabi.newpipe/en-US/icon_OHy4y1W-fJCNhHHOBCM9V_cxZNJJgbcNkB-x7UDTY9Q=.png"
         },
-        "org.fdroid.fdroid": {
-            "type": "f-droid",
-            "description": "A collection of apps that don't need Play Store.  \n\nNote: Unfortunately we've been having issues with this not working properly with the F-Droid Shizuku Privileged Extension (which is required for it to function at all on the Z2).\n-----\nFrom F-Droid:\nThe app store that respects freedom and privacy",
-            "dependencies": [
-                "org.fdroid.fdroid.privileged"
-            ],
-            "name": "F-Droid",
-            "downloadUrl": "https://f-droid.org/repo/org.fdroid.fdroid_1023051.apk",
-            "attribution": {
-                "name": "F-Droid",
-                "link": "https://f-droid.org/packages/org.fdroid.fdroid/"
-            },
-            "icon": "https://f-droid.org/repo/org.fdroid.fdroid/en-US/icon_0slNR8J9edqDZDoyWABFZrqQONU9EyiNVwM6B3Jui_Q=.png"
-        },
-        "org.fdroid.fdroid.privileged": {
-            "downloadUrl": "https://github.com/depau/fdroid_shizuku_privileged_extension/raw/master/fdroid/repo/F-DroidShizukuPrivilegedExtension-release.apk",
-            "name": "F-Droid Shizuku Privileged Extension",
-            "description": "Enables F-Droid to work via Shizuku.",
-            "dependencies": [
-                "moe.shizuku.privileged.api"
-            ],
-            "icon": "https://raw.githubusercontent.com/depau/fdroid_shizuku_privileged_extension/master/fdroid/repo/icons-640/ic_launcher-playstore.png",
-            "attribution": {
-                "name": "Davide Depau on GitHub",
-                "link": "https://github.com/depau/fdroid_shizuku_privileged_extension"
-            },
-            "postinstall": "am start -n org.fdroid.fdroid.privileged/.RequestPermissionActivity"
-        },
         "org.samo_lego.canta": {
             "type": "f-droid",
             "description": "Makes uninstalling apps easier.\n-----\nFrom F-Droid:\nUninstall any(*) app without root!",
@@ -115,6 +87,34 @@
                 "link": "https://f-droid.org/packages/com.aefyr.sai.fdroid/"
             },
             "icon": "https://f-droid.org/repo/com.aefyr.sai.fdroid/en-US/icon_Zm0fVY_8Lcc-3J8cCQd192LgncLhh-k4BQKvljYg9KU=.png"
+        },
+        "org.fdroid.fdroid": {
+            "type": "f-droid",
+            "description": "A collection of apps that don't need Play Store.  \n\nNote: Unfortunately we've been having issues with this not working properly with the F-Droid Shizuku Privileged Extension (which is required for it to function at all on the Z2).\n-----\nFrom F-Droid:\nThe app store that respects freedom and privacy",
+            "dependencies": [
+                "org.fdroid.fdroid.privileged"
+            ],
+            "name": "F-Droid",
+            "downloadUrl": "https://f-droid.org/repo/org.fdroid.fdroid_1023051.apk",
+            "attribution": {
+                "name": "F-Droid",
+                "link": "https://f-droid.org/packages/org.fdroid.fdroid/"
+            },
+            "icon": "https://f-droid.org/repo/org.fdroid.fdroid/en-US/icon_0slNR8J9edqDZDoyWABFZrqQONU9EyiNVwM6B3Jui_Q=.png"
+        },
+        "org.fdroid.fdroid.privileged": {
+            "downloadUrl": "https://github.com/depau/fdroid_shizuku_privileged_extension/raw/master/fdroid/repo/F-DroidShizukuPrivilegedExtension-release.apk",
+            "name": "F-Droid Shizuku Privileged Extension",
+            "description": "Enables F-Droid to work via Shizuku.",
+            "dependencies": [
+                "moe.shizuku.privileged.api"
+            ],
+            "icon": "https://raw.githubusercontent.com/depau/fdroid_shizuku_privileged_extension/master/fdroid/repo/icons-640/ic_launcher-playstore.png",
+            "attribution": {
+                "name": "Davide Depau on GitHub",
+                "link": "https://github.com/depau/fdroid_shizuku_privileged_extension"
+            },
+            "postinstall": "am start -n org.fdroid.fdroid.privileged/.RequestPermissionActivity"
         },
         "de.szalkowski.activitylauncher": {
             "type": "f-droid",
