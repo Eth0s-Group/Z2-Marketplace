@@ -27,19 +27,16 @@
             },
             "icon": "https://apt.izzysoft.de/fdroid/repo/moe.shizuku.privileged.api/en-US/icon_asi_qNRGXH8k_8WcEIjBU3tvFJC9zgZDldp18zf37Z4=.png"
         },
-        "org.fdroid.fdroid.privileged": {
-            "downloadUrl": "https://github.com/depau/fdroid_shizuku_privileged_extension/raw/master/fdroid/repo/F-DroidShizukuPrivilegedExtension-release.apk",
-            "name": "F-Droid Shizuku Privileged Extension",
-            "description": "Enables F-Droid to work via Shizuku.",
-            "dependencies": [
-                "moe.shizuku.privileged.api"
-            ],
-            "icon": "https://raw.githubusercontent.com/depau/fdroid_shizuku_privileged_extension/master/fdroid/repo/icons-640/ic_launcher-playstore.png",
+        "deltazero.amarok.foss": {
+            "type": "f-droid",
+            "description": "Hide your apps.\n-----\nFrom F-Droid:\nHide your private Files and APPs with a single click.",
+            "name": "Amarok",
+            "downloadUrl": "https://f-droid.org/repo/deltazero.amarok.foss_118.apk",
             "attribution": {
-                "name": "Davide Depau on GitHub",
-                "link": "https://github.com/depau/fdroid_shizuku_privileged_extension"
+                "name": "deltazefiro on F-Droid",
+                "link": "https://f-droid.org/packages/deltazero.amarok.foss/"
             },
-            "postinstall": "am start -n org.fdroid.fdroid.privileged/.RequestPermissionActivity"
+            "icon": "https://f-droid.org/repo/deltazero.amarok.foss/en-US/icon_nyBsozCF19DxPPeK3OSO-Aqw9qsckNSMymntDVZ-5-4=.png"
         },
         "org.mozilla.firefox": {
             "type": "fenix",
@@ -76,6 +73,20 @@
                 "link": "https://f-droid.org/packages/org.fdroid.fdroid/"
             },
             "icon": "https://f-droid.org/repo/org.fdroid.fdroid/en-US/icon_0slNR8J9edqDZDoyWABFZrqQONU9EyiNVwM6B3Jui_Q=.png"
+        },
+        "org.fdroid.fdroid.privileged": {
+            "downloadUrl": "https://github.com/depau/fdroid_shizuku_privileged_extension/raw/master/fdroid/repo/F-DroidShizukuPrivilegedExtension-release.apk",
+            "name": "F-Droid Shizuku Privileged Extension",
+            "description": "Enables F-Droid to work via Shizuku.",
+            "dependencies": [
+                "moe.shizuku.privileged.api"
+            ],
+            "icon": "https://raw.githubusercontent.com/depau/fdroid_shizuku_privileged_extension/master/fdroid/repo/icons-640/ic_launcher-playstore.png",
+            "attribution": {
+                "name": "Davide Depau on GitHub",
+                "link": "https://github.com/depau/fdroid_shizuku_privileged_extension"
+            },
+            "postinstall": "am start -n org.fdroid.fdroid.privileged/.RequestPermissionActivity"
         },
         "org.samo_lego.canta": {
             "type": "f-droid",
