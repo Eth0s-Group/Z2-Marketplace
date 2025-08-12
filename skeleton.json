@@ -25,7 +25,21 @@
             "type": "f-droid",
             "description": "A YouTube client for your Z2."
         },
-        "org.fdroid.fdroid": {
+        "org.samo_lego.canta": {
+            "type": "f-droid",
+            "description": "Makes uninstalling apps easier.",
+            "dependencies": [
+                "moe.shizuku.privileged.api"
+            ]
+        },
+        "com.aefyr.sai.fdroid": {
+            "type": "f-droid",
+            "description": "Allows installing APKs directly on the phone without a PC! (Make sure to use Shizuku install method)",
+            "dependencies": [
+                "moe.shizuku.privileged.api"
+            ]
+        },
+                "org.fdroid.fdroid": {
             "type": "f-droid",
             "description": "A collection of apps that don't need Play Store.  \n\nNote: Unfortunately we've been having issues with this not working properly with the F-Droid Shizuku Privileged Extension (which is required for it to function at all on the Z2).",
             "dependencies": [
@@ -45,20 +59,6 @@
                 "link": "https://github.com/depau/fdroid_shizuku_privileged_extension"
             },
             "postinstall": "am start -n org.fdroid.fdroid.privileged/.RequestPermissionActivity"
-        },
-        "org.samo_lego.canta": {
-            "type": "f-droid",
-            "description": "Makes uninstalling apps easier.",
-            "dependencies": [
-                "moe.shizuku.privileged.api"
-            ]
-        },
-        "com.aefyr.sai.fdroid": {
-            "type": "f-droid",
-            "description": "Allows installing APKs directly on the phone without a PC! (Make sure to use Shizuku install method)",
-            "dependencies": [
-                "moe.shizuku.privileged.api"
-            ]
         },
         "de.szalkowski.activitylauncher": {
             "type": "f-droid",
