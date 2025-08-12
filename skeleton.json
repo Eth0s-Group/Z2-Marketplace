@@ -13,19 +13,9 @@
             "repo": "https://apt.izzysoft.de/fdroid/repo",
             "description": "Allows managing apps via Aurora and F-Droid."
         },
-        "org.fdroid.fdroid.privileged": {
-            "downloadUrl": "https://github.com/depau/fdroid_shizuku_privileged_extension/raw/master/fdroid/repo/F-DroidShizukuPrivilegedExtension-release.apk",
-            "name": "F-Droid Shizuku Privileged Extension",
-            "description": "Enables F-Droid to work via Shizuku.",
-            "dependencies": [
-                "moe.shizuku.privileged.api"
-            ],
-            "icon": "https://raw.githubusercontent.com/depau/fdroid_shizuku_privileged_extension/master/fdroid/repo/icons-640/ic_launcher-playstore.png",
-            "attribution": {
-                "name": "Davide Depau on GitHub",
-                "link": "https://github.com/depau/fdroid_shizuku_privileged_extension"
-            },
-            "postinstall": "am start -n org.fdroid.fdroid.privileged/.RequestPermissionActivity"
+        "deltazero.amarok.foss": {
+            "type": "f-droid",
+            "description": "Hide your apps."
         },
         "org.mozilla.firefox": {
             "type": "fenix",
@@ -41,6 +31,20 @@
             "dependencies": [
                 "org.fdroid.fdroid.privileged"
             ]
+        },
+        "org.fdroid.fdroid.privileged": {
+            "downloadUrl": "https://github.com/depau/fdroid_shizuku_privileged_extension/raw/master/fdroid/repo/F-DroidShizukuPrivilegedExtension-release.apk",
+            "name": "F-Droid Shizuku Privileged Extension",
+            "description": "Enables F-Droid to work via Shizuku.",
+            "dependencies": [
+                "moe.shizuku.privileged.api"
+            ],
+            "icon": "https://raw.githubusercontent.com/depau/fdroid_shizuku_privileged_extension/master/fdroid/repo/icons-640/ic_launcher-playstore.png",
+            "attribution": {
+                "name": "Davide Depau on GitHub",
+                "link": "https://github.com/depau/fdroid_shizuku_privileged_extension"
+            },
+            "postinstall": "am start -n org.fdroid.fdroid.privileged/.RequestPermissionActivity"
         },
         "org.samo_lego.canta": {
             "type": "f-droid",
