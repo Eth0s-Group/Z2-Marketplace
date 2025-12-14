@@ -25,7 +25,7 @@
             "type": "f-droid",
             "description": "A YouTube client for your Z2."
         },
-        "org.samo_lego.canta": {
+        "io.github.samolego.canta": {
             "type": "f-droid",
             "description": "Makes uninstalling apps easier.",
             "dependencies": [
