@@ -53,7 +53,7 @@
             "type": "f-droid",
             "description": "A YouTube client for your Z2.\n-----\nFrom F-Droid:\nLightweight YouTube frontend",
             "name": "NewPipe",
-            "downloadUrl": "https://f-droid.org/repo/org.schabi.newpipe_1007.apk",
+            "downloadUrl": "https://f-droid.org/repo/org.schabi.newpipe_1008.apk",
             "attribution": {
                 "name": "Team NewPipe on F-Droid",
                 "link": "https://f-droid.org/packages/org.schabi.newpipe/"
