@@ -95,7 +95,7 @@
                 "org.fdroid.fdroid.privileged"
             ],
             "name": "F-Droid",
-            "downloadUrl": "https://f-droid.org/repo/org.fdroid.fdroid_1023052.apk",
+            "downloadUrl": "https://f-droid.org/repo/org.fdroid.fdroid_2000007.apk",
             "attribution": {
                 "name": "F-Droid",
                 "link": "https://f-droid.org/packages/org.fdroid.fdroid/"
@@ -120,7 +120,7 @@
             "type": "f-droid",
             "description": "Allows accessing parts of apps that may otherwise be inaccessible.\n-----\nFrom F-Droid:\nCreate shortcuts for apps and activities",
             "name": "Activity Launcher",
-            "downloadUrl": "https://f-droid.org/repo/de.szalkowski.activitylauncher_71.apk",
+            "downloadUrl": "https://f-droid.org/repo/de.szalkowski.activitylauncher_7400.apk",
             "attribution": {
                 "name": "Adam Szalkowski on F-Droid",
                 "link": "https://f-droid.org/packages/de.szalkowski.activitylauncher/"
