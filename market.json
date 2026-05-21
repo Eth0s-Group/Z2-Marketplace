@@ -25,7 +25,7 @@
                 "name": "Rikka apps on IzzyOnDroid F-Droid Repo",
                 "link": "https://apt.izzysoft.de/packages//moe.shizuku.privileged.api/"
             },
-            "icon": "https://apt.izzysoft.de/fdroid/repo/moe.shizuku.privileged.api/en-US/icon_asi_qNRGXH8k_8WcEIjBU3tvFJC9zgZDldp18zf37Z4=.png"
+            "icon": "https://apt.izzysoft.de/fdroid/repo/moe.shizuku.privileged.api/en-US/icon.png"
         },
         "deltazero.amarok.foss": {
             "type": "f-droid",
@@ -129,15 +129,16 @@
         },
         "io.github.muntashirakon.setedit": {
             "type": "f-droid",
-            "description": "THIS APP CAN HARM YOUR DEVICE!!!  Allows modifying settings that the manufacturer doesn't want you to.\n-----\nFrom F-Droid:\nOpen source version of the 4A Settings Database Editor",
+            "repo": "https://f-droid.org/archive",
+            "description": "THIS APP CAN HARM YOUR DEVICE!!!  Allows modifying settings that the manufacturer doesn't want you to.\n-----\nFrom F-Droid Archive:\n",
             "postinstall": "pm grant io.github.muntashirakon.setedit android.permission.WRITE_SECURE_SETTINGS",
-            "name": "SetEdit - Settings Database Editor",
-            "downloadUrl": "https://f-droid.org/repo/io.github.muntashirakon.setedit_9.apk",
+            "name": "Settings Database Editor",
+            "downloadUrl": "https://f-droid.org/archive/io.github.muntashirakon.setedit_9.apk",
             "attribution": {
-                "name": "Muntashir Al-Islam on F-Droid",
-                "link": "https://f-droid.org/packages/io.github.muntashirakon.setedit/"
+                "name": "Muntashir Al-Islam on F-Droid Archive",
+                "link": ""
             },
-            "icon": "https://f-droid.org/repo/io.github.muntashirakon.setedit/en-US/icon_s1hVwPD-l7cU5h_pOy4eFOVmmrDpgzw3oobIeU9t1Gk=.png"
+            "icon": "https://f-droid.org/assets/ic_repo_app_default_KNN008Z2K7VNPZOFLMTry3JkfFYPxVGDopS1iwWe5wo=.png"
         }
     }
 }
