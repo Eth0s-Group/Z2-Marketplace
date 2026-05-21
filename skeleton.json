@@ -66,6 +66,7 @@
         },
         "io.github.muntashirakon.setedit": {
             "type": "f-droid",
+            "repo": "https://apt.izzysoft.de/fdroid/repo",
             "description": "THIS APP CAN HARM YOUR DEVICE!!!  Allows modifying settings that the manufacturer doesn't want you to.",
             "postinstall": "pm grant io.github.muntashirakon.setedit android.permission.WRITE_SECURE_SETTINGS"
         }
