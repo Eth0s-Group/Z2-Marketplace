@@ -46,7 +46,7 @@ def get_fdroid(appid: str, ignore_recommended: bool = False, repo: str = "https:
         version=version,
         description=index_entry["metadata"]["description"]["en-US"] if "description" in index_entry["metadata"] and "en-US" in index_entry["metadata"]["description"] else "",
         download_url=f"{repo}/{appid}_{versioncode}.apk",
-        store_link=f"{cached_index[repo]["repo"]["webBaseUrl"]}/{appid}/" if "webBaseUrl" in cached_index[repo]["repo"] else "",
+        store_link=f"{cached_index[repo]["repo"]["webBaseUrl"]}/{appid}/" if "webBaseUrl" in cached_index[repo]["repo"] else "https://www.yout-ube.com/watch?v=dQw4w9WgXcQ",
         icon_url=f"{repo}{index_entry["metadata"]["icon"]["en-US"]["name"]}" if "icon" in index_entry["metadata"] else "https://f-droid.org/assets/ic_repo_app_default_KNN008Z2K7VNPZOFLMTry3JkfFYPxVGDopS1iwWe5wo=.png",
         summary=index_entry["metadata"]["summary"]["en-US"] if "summary" in index_entry["metadata"] and "en-US" in index_entry["metadata"]["summary"] else "",
         store_name=cached_index[repo]["repo"]["name"]["en-US"],
