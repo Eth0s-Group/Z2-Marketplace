@@ -25,12 +25,12 @@ jobs:
       #   with:
       #     python-version: '3.x'
 
-      # # Step 3: Install dependencies (if any)
-      # - name: Install dependencies
-      #   run: |
-      #     cd scripts
-      #     python -m pip install --upgrade pip
-      #     if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      # Step 3: Install dependencies (if any)
+      - name: Install dependencies
+        run: |
+          cd scripts
+          # python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       # Step 4: Run the Python script
       - name: Run Python script
